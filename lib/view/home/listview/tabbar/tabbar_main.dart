@@ -16,7 +16,9 @@ class TabBarMain extends StatelessWidget {
         ),
         body: const WidgetWithCodeView(
             filePath: "lib/view/tabbar_view.dart",
-            child:TabBarScreen()),          
+            child:TabBarScreen(),          
+             codeLinkPrefix: 'https://github.com/<my_username>/<my_project>/blob/master/', 
+      ),
       ),
     );
   }
